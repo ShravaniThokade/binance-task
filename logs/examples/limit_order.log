@@ -1,0 +1,6 @@
+2026-06-12 00:32:23 | INFO | __main__ | Order request validated: SELL LIMIT BTCUSDT qty=0.001
+2026-06-12 00:32:23 | INFO | trading_bot.bot.client | Binance Futures client initialized (demo: https://demo-fapi.binance.com)
+2026-06-12 00:32:23 | INFO | trading_bot.bot.orders | Submitting SELL LIMIT order for BTCUSDT
+2026-06-12 00:32:23 | INFO | trading_bot.bot.client | Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
+2026-06-12 00:32:24 | DEBUG | trading_bot.bot.client | Order response: {'orderId': 14867378787, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ23bc80c9411b518e8fa3d1', 'price': '150000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781204547516}
+2026-06-12 00:32:24 | INFO | __main__ | Order placed successfully: orderId=14867378787 status=NEW executedQty=0.0000 avgPrice=N/A

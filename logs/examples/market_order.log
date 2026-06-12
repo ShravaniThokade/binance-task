@@ -1,0 +1,6 @@
+2026-06-12 00:31:42 | INFO | __main__ | Order request validated: BUY MARKET BTCUSDT qty=0.001
+2026-06-12 00:31:43 | INFO | trading_bot.bot.client | Binance Futures client initialized (demo: https://demo-fapi.binance.com)
+2026-06-12 00:31:43 | INFO | trading_bot.bot.orders | Submitting BUY MARKET order for BTCUSDT
+2026-06-12 00:31:43 | INFO | trading_bot.bot.client | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-06-12 00:31:44 | DEBUG | trading_bot.bot.client | Order response: {'orderId': 14867201040, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4d5ffe1651487e7d50a87f', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781204507138}
+2026-06-12 00:31:44 | INFO | __main__ | Order placed successfully: orderId=14867201040 status=NEW executedQty=0.0000 avgPrice=N/A
