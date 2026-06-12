@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+logs/trading_bot.log
+.pytest_cache/
+.idea/
+.vscode/
